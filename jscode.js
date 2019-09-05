@@ -2,7 +2,10 @@ $(document).ready(function(){
 	$("h1").click(function(){
 		$("p").toggle();
 	});
-	$("p").click(function(){
-		$("p").toggle();
+	$(".1").click(function(){
+		$(".2").toggle();
+		$(".3").toggle();
+		$(".4").toggle();
+	$("img").css({"display":"inline"});
 	});
 });
